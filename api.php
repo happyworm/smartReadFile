@@ -8,6 +8,8 @@ require_once('smartReadFile.php');
 
 // Get name passed via URL
 $filename = $_GET['f'];
+
+// Usually this would be hidden above the web server root. EG., '/hidden/media/'
 $base = 'media/';
 
 // Whitelist filename characters
