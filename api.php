@@ -31,10 +31,16 @@ switch ($file[count($file)-1]) {
 	case 'ogg':
 		$type = 'audio/ogg';
 		break;
+	case 'oga':
+		$type = 'audio/ogg';
+		break;
 	case 'm4a':
 		$type = 'audio/mp4';
 		break;
 	case 'm4v':
+		$type = 'video/mp4';
+		break;
+	case 'mp4':
 		$type = 'video/mp4';
 		break;
 	case 'webm':
