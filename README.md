@@ -102,4 +102,4 @@ The media used in this demo is owned by:
 
 ## Known Issues
 
-* **OSX Safari** refuses to play the media served.
+* When this project is behind *Apache AuthType*, **OSX Safari** refuses to play the media served.
