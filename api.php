@@ -4,15 +4,30 @@
  * API Example
  */
 
+// You could check they have rights to access the media here.
+//  - No checking in this example.
+
+// Perform some form of security validation.
+// EG., You could check their PHP session is logged in.
+$granted = true; // Bypass validation.
+
+if (!$granted) {
+	header ("HTTP/1.1 404 Not Found");
+	die();
+}
+
 require_once('smartReadFile.php');
 
-// Get name passed via URL
+// Get filename passed via URL
 $filename = $_GET['f'];
 
 // Usually this would be hidden above the web server root. EG., '/hidden/media/'
 $base = 'media/';
 
-// Whitelist filename characters
+// Whitelist filename characters. Edit if your filenames require other characters.
+// Never include the '/' character.
+// ie., Learn from the link below, if you think it is already in there, because it's not!
+// http://php.net/manual/en/reference.pcre.pattern.syntax.php
 $ok = preg_match('/^[-A-Za-z0-9_.]+$/', $filename);
 
 // Ignore requests that smell funny
@@ -22,6 +37,9 @@ if (!$ok) {
 }
 
 $file = explode('.', $filename);
+
+// You could check they have rights to access the media here.
+//  - No checking in this example.
 
 // Get the type by file extension
 switch ($file[count($file)-1]) {
