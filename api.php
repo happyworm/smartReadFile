@@ -4,9 +4,6 @@
  * API Example
  */
 
-// You could check they have rights to access the media here.
-//  - No checking in this example.
-
 // Perform some form of security validation.
 // EG., You could check their PHP session is logged in.
 $granted = true; // Bypass validation.
