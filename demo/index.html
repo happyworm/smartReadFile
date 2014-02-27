@@ -27,6 +27,7 @@ jQuery(document).ready(function($) {
 		supplied: "mp3, m4a, oga", // Adjust this option to test encoding format changes in API
 		cssSelectorAncestor: "#jp_container_1",
 		wmode: "window",
+		globalVolume: true,
 		smoothPlayBar: true,
 		keyEnabled: true
 	});
@@ -46,14 +47,28 @@ jQuery(document).ready(function($) {
 		swfPath: "js",
 		supplied: "webmv, ogv, m4v",
 		cssSelectorAncestor: "#jp_container_2",
+		globalVolume: true,
 		smoothPlayBar: true,
 		keyEnabled: true
 	});
 });
 </script>
+<style>
+span.shamone {
+	border:2px solid black;
+	background-color:#eee;
+	padding:0 5px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	-khtml-border-radius:10px;
+	-ms-border-radius:10px;
+	border-radius:10px;
+}
+</style>
 </head>
 <body>
-	<h1>smartReadFile demo</h1>
+	<h1><span class="shamone">smartReadFile()</span> demo</h1>
 	<h2>Audio demo</h2>
 
 	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
