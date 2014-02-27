@@ -35,10 +35,13 @@ smartReadFile($path, $track, $type);
 
 MIT License.
 
-## Kudus to the creators!
+## Kudos to the creators!
 
-Beta: Joe Lencioni of [Shifting Pixel](http://shiftingpixel.com/)
-1.0: Eoin of [bitesizeirishgaelic.com](http://www.bitesizeirishgaelic.com/)
+The development history:
+
+* Alpha: gaosipov of [php.net](http://php.net/manual/en/function.readfile.php#86244) User Contributed Notes
+* Beta: Joe Lencioni of [Shifting Pixel](http://shiftingpixel.com/)
+* 1.0: Eoin of [bitesizeirishgaelic.com](http://www.bitesizeirishgaelic.com/)
 
 ## Media Copyright
 
