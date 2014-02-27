@@ -1,6 +1,8 @@
 # smartReadFile
 
-For reading media file through a PHP controller
+For reading media files through a PHP controller, while accepting **range** rquests.
+
+This satisfies the requirements for HTML5 media requests in <audio> and <video> elements.
 
 ## Code example:
 
@@ -82,3 +84,7 @@ The media used in this demo is owned by:
 
 * **Bubble** © 2003 Miaow / Arnaud Laflaquiere - [MiaowMusic.com](http://www.miaowmusic.com/)
 * **Big Bubk Bunny** © 2008 Blender Foundation - [bigbuckbunny.org](http://www.bigbuckbunny.org/)
+
+## Known Issues
+
+* *OSX Safari* refuses to play the media served.
