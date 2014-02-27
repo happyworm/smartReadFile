@@ -83,7 +83,7 @@ The development history:
 The media used in this demo is owned by:
 
 * **Bubble** © 2003 Miaow / Arnaud Laflaquiere - [MiaowMusic.com](http://www.miaowmusic.com/)
-* **Big Bubk Bunny** © 2008 Blender Foundation - [bigbuckbunny.org](http://www.bigbuckbunny.org/)
+* **Big Buck Bunny** © 2008 Blender Foundation - [bigbuckbunny.org](http://www.bigbuckbunny.org/)
 
 ## Known Issues
 
