@@ -2,7 +2,7 @@
 
 For reading media files through a PHP controller, while accepting **range** rquests.
 
-This satisfies the requirements for HTML5 media requests in <audio> and <video> elements.
+This satisfies the requirements for HTML5 media requests in **\<audio\>** and **\<video\>** elements.
 
 ## Code example:
 
