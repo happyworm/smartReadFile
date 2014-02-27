@@ -13,8 +13,6 @@ if (!$granted) {
 	die();
 }
 
-require_once('smartReadFile.php');
-
 // Get filename passed via URL
 $filename = $_GET['f'];
 
@@ -68,5 +66,6 @@ switch ($file[count($file)-1]) {
 
 $path = $base . $filename;
 
-// Call smartReadFile
+// Include and call smartReadFile
+require_once('smartReadFile.php');
 smartReadFile($path, $filename, $type);
