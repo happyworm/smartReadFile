@@ -40,7 +40,7 @@ function smartReadFile($location, $filename, $mimeType = 'application/octet-stre
 			$begin	= intval($matches[1]);
 			if (!empty($matches[2]))
 			{
-				$end	= intval($matches[2]);
+				$end	= min($end, intval($matches[2]));
 			}
 		}
 	}
